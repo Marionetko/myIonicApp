@@ -24,7 +24,10 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import Menu from './pages/Menu';
 
-setupIonicReact();
+setupIonicReact({
+  // mode: 'ios',
+  // animated: false,
+});
 
 const App: React.FC = () => (
   <IonApp>

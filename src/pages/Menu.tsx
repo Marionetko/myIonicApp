@@ -28,7 +28,7 @@ const Menu: React.FC = () => {
                                 autoHide={false}
                             >
                                 <IonItem
-                                    detail={false}
+                                    detail={true}
                                     routerLink={item.url}
                                     routerDirection='none'
                                 >
